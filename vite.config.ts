@@ -25,6 +25,7 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  base: '/MapRoom/',
   server: {
     port: 3000,
   },
